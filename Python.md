@@ -21,4 +21,3 @@ print("hello world")`
 长字符串： `'''strstrstr'''` 或 `"""strstrstr"""`
 
 ## 二、列表
-
