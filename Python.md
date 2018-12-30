@@ -11,16 +11,16 @@
 输入输出:
 
 ```python
-    x = input("the life is: ")
-    print("hello world")
+x = input("the life is: ")
+print("hello world")
 ```
 
 类型转换，如：
 
  ```python
-    int(object)
-    float(object)
-    str(object)
+int(object)
+float(object)
+str(object)
  ```
 
 字符串： `' str '` 或 `"str"`
@@ -29,32 +29,44 @@
 字符编码，如：
 
 ```python
-    "Hello,world".encode("ASCII")
-    "Hello,world".encode("UTF-8")
+"Hello,world".encode("ASCII")
+"Hello,world".encode("UTF-8")
 ```
 
 ## 二、序列
 
-### 1. 列表和元组
+### 1. 列表,元组和字符串
 
 #### 1.1 列表：
 
 **放在方括号中，可修改**的序列，如：
 
 ```python
-    edward = ['Edward Gaward', 42]
-    john = ['John Smith', 23]
-    database = [edward, john]
+edward = ['Edward Gaward', 42]
+john = ['John Smith', 23]
+database = [edward, john]
 ```
 
 #### 1.2 元组：
 
-**直接逗号分隔或加圆括号，不可修改**的序列，如：
+**直接逗号分隔或加圆括号，不可变**的序列，如：
 
 ```python
-    x = 1, 2, 3
-    y = (4, 5, 6)
-    z = (42,)
+x = 1, 2, 3
+y = (4, 5, 6)
+z = (42,)
+```
+
+可利用`tuple(a)`将序列转化为元组
+
+（不可变指不可更改其中部分元素，但可以重新赋值）
+
+#### 1.3 字符串：
+
+**单引号或双引号包裹，不可变**的序列，如：
+
+```python
+str = "I'm a long"
 ```
 
 ### 2. 通用序列操作
@@ -64,9 +76,12 @@
 0为元素第一位，-1为最后一位，可直接通过 `str[0]` 进行索引。如：
 
 ```python
-    >>> greeting = 'Hello'
-    >>> greeting[0]
-    'H'
+>>> greeting = 'Hello'
+>>> greeting[0]
+'H'
+>>> num = [1,4,577,333]
+>>> num[2]
+577
 ```
 
 #### 2.2 切片
@@ -77,11 +92,125 @@
 另外，可设置步长，如：
 
 ```python
-    >>>number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    >>>number[0:10:2]
-    [1, 3, 5, 7, 9]
-    >>>number[1::4]
-    [2, 6, 10]
-    >>>number[::-3]
-    [10, 7, 4, 1]
+>>>number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>>number[0:10:2]
+[1, 3, 5, 7, 9]
+>>>number[1::4]
+[2, 6, 10]
+>>>number[::-3]
+[10, 7, 4, 1]
 ```
+
+#### 2.3 相加
+
+同类型可相加，如：
+
+```python
+>>> (1, 2, 3)+ (4,)
+(1, 2, 3, 4)
+>>> [1, 4, 5] + [4]
+[1, 4, 5, 4]
+>>> 'Hell' + "O"
+'HellO'
+```
+
+#### 2.4 乘法
+
+序列可与整数相乘：
+
+```python
+>>> 'python' * 5
+'pythonpythonpythonpythonpython'
+```
+
+#### 2.5 成员资格
+
+运算符`in`可检测元素是否在序列中，返回布尔类型，如：
+
+```python
+>>> str = "ate"
+>>> "a" in str
+True
+>>> "m" in str
+False
+```
+
+#### 2.6 其他
+
+> `len(seq)`    : 返回序列长度
+> `max(args)` `min(args`    :返回最大值最小值
+
+### 3. 列表方法
+
+#### 3.1 list
+
+将字符串转化为列表的方法：
+
+```python
+>>> list('Hello')
+['H', 'e', 'l', 'l', 'o']
+```
+
+#### 3.2 基本操作：
+
+```python
+>>> x = [1, 1, 1]
+>>> x[1] = 2
+>>> x
+[1, 2, 1]
+#赋值操作
+
+>>> del x[1]
+>>> x
+[1, 1]
+#删除元素
+
+>>> x[1:] = [2, 3]
+>>> x
+[1, 2, 3]
+>>> x[1:1] = [6, 6, 6]
+>>> x
+[1, 6, 6, 6, 2, 3]
+#切片赋值与插入
+
+```
+
+#### 3.3 列表方法
+
+> append:添加一个对象到列表末尾  `lst.append(4)`
+> clear: 清除   `lst.clear()`
+> copy: 复制    `b=a.copy`  (b = a则二者指向一个变量)
+> count: 计算指定元素出现次数 `[1, 2, 1].count(1)`
+> extend: 将多个值附到列表末尾 `[1, 2, 3].extend([4, 5])`
+> index: 查找指定值第一次出现的索引 `lst.index(a)`
+> insert: 插入  `lst.insert(2, 'a)`
+> pop:  删除一个元素并返回 （唯一修改列表并返回非空的方法），如：
+> ```python
+>>>> x = [1, 2, 3]
+>>>> x.pop()
+>3
+>>>> x
+>[1, 2]
+>>>> x.pop(0)
+>1
+>>>> x
+>[2]
+> ```
+> remove:   删除第一个为指定值的元素： `x.remove('a')`
+> reverse: 反转列表：   `x.reverse()`
+> sort: 排序并更改列表顺序 `x.sort()`
+>>高级排序：sort有两个科学参数key和reverse，如下：
+>>```python
+>>>>> x = ['aadad', '3ds', 'aadd', 'aaaa', 'ds']
+>>>>> x.sort(key=len)
+>>>>> x
+>>['ds', '3ds', 'aadd', 'aaaa', 'aadad']
+>>>>> x.sort(reverse=True)
+>>>>> x
+>>['ds', 'aadd', 'aadad', 'aaaa', '3ds']
+>>#默认按首字符编码顺序排
+>>```
+> sorted: 排序但不更改列表内容，可用于任何序列，返回排序后的列表
+
+### 4. 字符串操作
+
