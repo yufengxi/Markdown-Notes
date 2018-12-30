@@ -286,9 +286,37 @@ x/X         | 十六进制
 > find: 查找子串,返回第一个字符索引,没有返回-1   `str.find(a)`
 > 也可指定起点终点,如: `str.find(a,1,10)`
 > join: 合并序列元素,如:
-> ```python
->>>> seq = ['1', '2', '3', '4', '5']
->>>> sep = '+'
->>>> sep.join(seq)
->'1+2+3+4+5'
-> ```
+>> ```python
+>>>>> seq = ['1', '2', '3', '4', '5']
+>>>>> sep = '+'
+>>>>> sep.join(seq)
+>>'1+2+3+4+5'
+>> ```
+> lower: 返回小写版本: `str.lower()`
+> replace: 将指定字串全部换为另一个 `str.replace('is','are')`
+> split: 将字符串拆成序列(默认从空格拆分),如
+>> ```python
+>>>>> '1+2+3+4+5'.split('+')
+>>['1', '2', '3', '4', '5']
+>>>>> 'I am a long'.split()
+>>['I', 'am', 'a', 'long']
+>>```
+>strip: 删除开头结尾的空白或指定字符,如:
+>>```python
+>>>>> "       fssffaa    ".strip()
+>>'fssffaa'
+>>>>> "    ! !!!  fssffaa **!!  ! ".strip(' !*')
+>>'fssffaa'
+>>```
+>translate: 可替换多个单字符,但首先应对str类型建立转换表(maketrans)如:
+>>```python
+>>>>> table = str.maketrans('cs','kz')
+>>>>> "tssj jjcm wws".translate(table)
+>>'tzzj jjkm wwz'
+>>>>> table = str.maketrans('cs','kz',' ')
+>>>>> "tssj jjcm wws".translate(table)
+>>'tzzjjjkmwwz'
+>>#可定义第三个将被删除的参数
+>>```
+
+## 三、字典
