@@ -214,3 +214,55 @@ False
 
 ### 4. 字符串操作
 
+#### 4.1 设置格式
+
+##### 4.1.1 设置运算符%，利用元组设置格式，如：
+
+```python
+>>> format = "Hello, %s. %s enough for ya?"
+>>> values = ('world', 'Hot')
+>>> format % values
+'Hello, world. Hot enough for ya?'
+```
+
+##### 4.1.2 format方法赋值：
+
+替换字号用花括号括起，其各部分包括：
+> 字段名 ： 索引或标识符，指出哪个格式并使用结果替换该字段
+> 转换标志： !后的单个字符，包括r（repr），s（str）和a（ascii）
+> 格式说明符: 跟在:后的表达式.
+
+###### 4.1.2.1 替换字段名
+
+```python
+>>> "{foo} {} {bar} {}".format(1, 2, bar=4 ,foo=3)
+'3 1 4 2'
+#参数指定名称
+
+>>> "{foo} {1} {bar} {0}".format(1, 2, bar=4 ,foo=3)
+'3 2 4 1'
+#参数名称+标号
+```
+
+###### 4.1.2.2 基本转换
+
+利用转换标志进行转换,如:
+
+```python
+>>> "{pi!s} {pi!r} {pi!a}".format(pi="π")
+"π 'π' '\\u03c0'"
+```
+
+格式说明符转换如下:
+
+```python
+>>> "number is {num}".format(num=42)
+'number is 42'
+>>> "number is {num:f}".format(num=42)
+'number is 42.000000'
+>>> "number is {num:b}".format(num=42)
+'number is 101010'
+>>> "number is {num:o}".format(num=42)
+'number is 52'
+```
+
