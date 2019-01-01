@@ -323,17 +323,17 @@ x/X         | 十六进制
 
 Python中唯一内置的映射类型，其值不安顺序排列，而是存储在键下。
 
-### 3.1 创建字典
+### 1. 创建字典
 
 可通过如下几种方法创建：
 
-#### 标准类型：
+#### 1.1 标准类型：
 
 ```python
 phonebook = { 'A': '233', 'B': '424', 'C': '515'}
 ```
 
-#### 函数dict：
+#### 1.2 函数dict：
 
 ```python
 >>> item = [('name','Alice'), ('age', 42)]
@@ -348,9 +348,76 @@ phonebook = { 'A': '233', 'B': '424', 'C': '515'}
 {'name': 'Jack', 'age': '49'}
 ```
 
-### 3.2 基本操作
+### 2. 基本操作
 
 > `len(d)` 返回字典键值对数
 > `d[k]` 返回与键k关联的值，同样可直接给它赋值
 > `del d[k]` 删除该键值对
 > `k in d` 判断k是否为d的项 （k为d的键而非值）
+
+### 3. 字典方法
+
+> clear: 清空整个字典，返回值为空 `d.clear()`
+> copy: 浅复制，替换值不受影响但修改影响原件 `y=x.copy` 深复制可利用copy模块中deepcopy `x = deepcopy(y)`
+> fromkeys: 创造含指定值的空字典，也可自己赋默认值 `dict.fromkeys(['a','b'],'m')`
+> get: 返回字典中键对应的值，对于空值也不会产生错误 `d.get('a')`或空值设为返回默认值 `d.get('a',0)`
+> items: 返回字典视图，一个每个元素均为`(key, value)`的列表 `d.items`
+> keys: 只返回键的字典视图 `d.keys`
+> pop: 删除该键并返回其值 `d.pop('x')`
+> popitems: 随机弹出一个字典项并返回其值 `d.popitems()`
+> setfault: 与get相同，但当键无对应值时添加关联的值 `d.setfault('a','N/A)`
+> update: 用一个字典的项更新另一个 `d.update(a)`
+> values: 返回全部值 `d.values()`
+
+## 四、语句
+
+### 1. 赋值
+
+```python
+x, y, z = 1, 2, 3
+#序列解包
+x = y = somefunction()
+#链式赋值
+x += 2
+#增强赋值
+```
+
+### 2. 条件语句
+
+布尔代数中， `False` `None` `0` `""` `()` `[]` `{}`被视为假
+
+`True == 1`   `False == 0`
+
+`if` `elif` `else`
+不需要括号
+条件表达式关键词： `==` `is` `in` `is not` `not in`
+
+**断言：**assert语句，可预先规定某些条件，如果不满足条件则中断程序执行。
+
+### 3. 循环
+
+#### 3.1 while
+
+```python
+x = 1
+while x <= 100:
+#也可用while not
+    print(x)
+    x +=1
+```
+
+#### 3.2 for
+
+利用迭代器进行循环，`for in`
+
+```python
+for number in range(1, 100)
+    print(number)
+#range为内置函数，range(10)代表0-9 10个自然数。，range(x,y)代表x开始n个自然数
+```
+
+#### 3.3 迭代工具
+
+##### 3.3.1 并行迭代
+
+**zip**函数可将两个序列缝合，返回元组组成的序列
