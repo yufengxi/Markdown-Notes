@@ -177,13 +177,13 @@ False
 
 #### 3.3 列表方法
 
-> append:添加一个对象到列表末尾  `lst.append(4)`
-> clear: 清除   `lst.clear()`
-> copy: 复制    `b=a.copy`  (b = a则二者指向一个变量)
-> count: 计算指定元素出现次数 `[1, 2, 1].count(1)`
-> extend: 将多个值附到列表末尾 `[1, 2, 3].extend([4, 5])`
-> index: 查找指定值第一次出现的索引 `lst.index(a)`
-> insert: 插入  `lst.insert(2, 'a)`
+> append:添加一个对象到列表末尾  `lst.append(4)`  
+> clear: 清除   `lst.clear()`  
+> copy: 复制    `b=a.copy`  (b = a则二者指向一个变量)  
+> count: 计算指定元素出现次数 `[1, 2, 1].count(1)`  
+> extend: 将多个值附到列表末尾 `[1, 2, 3].extend([4, 5])`  
+> index: 查找指定值第一次出现的索引 `lst.index(a)`  
+> insert: 插入  `lst.insert(2, 'a)`  
 > pop:  删除一个元素并返回 （唯一修改列表并返回非空的方法），如：
 > ```python
 >>>> x = [1, 2, 3]
@@ -196,9 +196,9 @@ False
 >>>> x
 >[2]
 > ```
-> remove:   删除第一个为指定值的元素： `x.remove('a')`
-> reverse: 反转列表：   `x.reverse()`
-> sort: 排序并更改列表顺序 `x.sort()`
+> remove:   删除第一个为指定值的元素： `x.remove('a')`  
+> reverse: 反转列表：   `x.reverse()`  
+> sort: 排序并更改列表顺序 `x.sort()`  
 >>高级排序：sort有两个科学参数key和reverse，如下：
 >>```python
 >>>>> x = ['aadad', '3ds', 'aadd', 'aaaa', 'ds']
@@ -267,33 +267,33 @@ False
 ```
 
 说明符清单如下:
-类型        | 含义
-:---------: | :-----------:
-b           | 整数表示为二进制
-c           | 整数解读为Unicode编码
-e/E         | 科学记数法指数
-f/F         | 定点数
-g/G         | 定点数或科学计数
-o           | 八进制
-s           | 字符串格式
-x/X         | 十六进制
-%           | 百分比制
+类型         | 含义
+:----------: | :-----------:
+b            | 整数表示为二进制
+c            | 整数解读为Unicode编码
+e/E          | 科学记数法指数
+f/F          | 定点数
+g/G          | 定点数或科学计数
+o            | 八进制
+s            | 字符串格式
+x/X          | 十六进制
+%            | 百分比制
 
 #### 4.2 字符串方法
 
 > center: 在两端填充字符让字符串居中(默认空格),如:  
-> `"Hello world".center(20)` `"Hello world".center(20,'*')`
-> find: 查找子串,返回第一个字符索引,没有返回-1   `str.find(a)`
-> 也可指定起点终点,如: `str.find(a,1,10)`
-> join: 合并序列元素,如:
+> `"Hello world".center(20)` `"Hello world".center(20,'*')`  
+> find: 查找子串,返回第一个字符索引,没有返回-1   `str.find(a)`  
+> 也可指定起点终点,如: `str.find(a,1,10)`  
+> join: 合并序列元素,如:  
 >> ```python
 >>>>> seq = ['1', '2', '3', '4', '5']
 >>>>> sep = '+'
 >>>>> sep.join(seq)
 >>'1+2+3+4+5'
 >> ```
-> lower: 返回小写版本: `str.lower()`
-> replace: 将指定字串全部换为另一个 `str.replace('is','are')`
+> lower: 返回小写版本: `str.lower()`  
+> replace: 将指定字串全部换为另一个 `str.replace('is','are')`  
 > split: 将字符串拆成序列(默认从空格拆分),如
 >> ```python
 >>>>> '1+2+3+4+5'.split('+')
@@ -350,23 +350,23 @@ phonebook = { 'A': '233', 'B': '424', 'C': '515'}
 
 ### 2. 基本操作
 
-> `len(d)` 返回字典键值对数
-> `d[k]` 返回与键k关联的值，同样可直接给它赋值
-> `del d[k]` 删除该键值对
+> `len(d)` 返回字典键值对数  
+> `d[k]` 返回与键k关联的值，同样可直接给它赋值  
+> `del d[k]` 删除该键值对  
 > `k in d` 判断k是否为d的项 （k为d的键而非值）
 
 ### 3. 字典方法
 
-> clear: 清空整个字典，返回值为空 `d.clear()`
-> copy: 浅复制，替换值不受影响但修改影响原件 `y=x.copy` 深复制可利用copy模块中deepcopy `x = deepcopy(y)`
-> fromkeys: 创造含指定值的空字典，也可自己赋默认值 `dict.fromkeys(['a','b'],'m')`
-> get: 返回字典中键对应的值，对于空值也不会产生错误 `d.get('a')`或空值设为返回默认值 `d.get('a',0)`
-> items: 返回字典视图，一个每个元素均为`(key, value)`的列表 `d.items`
-> keys: 只返回键的字典视图 `d.keys`
-> pop: 删除该键并返回其值 `d.pop('x')`
-> popitems: 随机弹出一个字典项并返回其值 `d.popitems()`
-> setfault: 与get相同，但当键无对应值时添加关联的值 `d.setfault('a','N/A)`
-> update: 用一个字典的项更新另一个 `d.update(a)`
+> clear: 清空整个字典，返回值为空 `d.clear()`  
+> copy: 浅复制，替换值不受影响但修改影响原件 `y=x.copy` 深复制可利用copy模块中deepcopy `x = deepcopy(y)`  
+> fromkeys: 创造含指定值的空字典，也可自己赋默认值 `dict.fromkeys(['a','b'],'m')`  
+> get: 返回字典中键对应的值，对于空值也不会产生错误 `d.get('a')`或空值设为返回默认值 `d.get('a',0)`  
+> items: 返回字典视图，一个每个元素均为`(key, value)`的列表 `d.items`  
+> keys: 只返回键的字典视图 `d.keys`  
+> pop: 删除该键并返回其值 `d.pop('x')`  
+> popitems: 随机弹出一个字典项并返回其值 `d.popitems()`  
+> setfault: 与get相同，但当键无对应值时添加关联的值 `d.setfault('a','N/A)`  
+> update: 用一个字典的项更新另一个 `d.update(a)`  
 > values: 返回全部值 `d.values()`
 
 ## 四、语句
@@ -458,8 +458,8 @@ Mike is 24 years old
 
 #### 3.4 跳出循环
 
-> break: 直接跳出循环
-> continue: 结束当前迭代，跳到下一次迭代开始
+> break: 直接跳出循环  
+> continue: 结束当前迭代，跳到下一次迭代开始  
 > while 和 break
 
 #### 3.5 循环与else
@@ -481,8 +481,8 @@ No
 
 ### 4. 其他语句
 
->del: 删除对象，但只删除名称，例如`x=y=1`,`del x`后y仍然存在
->exec：将字符作为代码执行，如： `exec("print('Hello,world')")`，但需要传递命名空间
+>del: 删除对象，但只删除名称，例如`x=y=1`,`del x`后y仍然存在  
+>exec：将字符作为代码执行，如： `exec("print('Hello,world')")`，但需要传递命名空间  
 >eval: 类似exec并返回结果
 
 ## 五、抽象和类
@@ -532,8 +532,8 @@ Params:
 
 指一些列数据及访问操作它们的方法。其优点包括：
 
->多态：可对不同类型数据执行相同操作
->封装：对外隐藏工作原理细节
+>多态：可对不同类型数据执行相同操作  
+>封装：对外隐藏工作原理细节  
 >继承：基于通用类创建专用类
 
 ### 3. 类
@@ -596,7 +596,7 @@ class SPAMFilter(Filter):
 ```
 
 >判断是否为子类的方法：`issubclass(a,b)`，若a为b子类返回`True`  
->确定类的基类： `a.__bases__`
+>确定类的基类： `a.__bases__`  
 >判断对象是否为类的实例: `isinstance(a,b)`，a为实例返回`True`
 
 多继承：`class A(B, C)`如果BC含相同方法，则C中的会覆盖掉B中的
@@ -617,5 +617,5 @@ class Talker(ABC):
 出现异常时，python会返回错误消息并终止程序
 
 >raise: 可将类或实例作为参数，用于引发异常的语句 `raise Exceprion`  
->Exception: 内置异常类，所有异常类都由其派生
->try/except： 用于捕获异常的语句
+>Exception: 内置异常类，所有异常类都由其派生  
+>try/except： 用于捕获异常的语句，try模块写正常程序，`except Expection`后接对异常的处理，也可`except (A, B, C)`或多个except。同样except后仍可接else处理没有异常的事件。另外`finally`可执行异常发生时的清理工作，与`try`配套。
