@@ -376,6 +376,8 @@ phonebook = { 'A': '233', 'B': '424', 'C': '515'}
 ```python
 x, y, z = 1, 2, 3
 #序列解包
+x, y, *z = [1, 2, 3, 4]
+#*可以手机多余的值，但包含的一定是一个列表
 x = y = somefunction()
 #链式赋值
 x += 2
@@ -420,4 +422,107 @@ for number in range(1, 100)
 
 ##### 3.3.1 并行迭代
 
-**zip**函数可将两个序列缝合，返回元组组成的序列
+内置函数 `zip` 可将两个序列缝合，返回元组组成的序列。如下：
+
+```python
+>>> names = ['Jack', 'Beth', 'Mike']
+>>> ages = [20, 19, 24, 92]
+>>> list(zip(names, ages))
+[('Jack', 20), ('Beth', 19), ('Mike', 24)]
+>>> for name, age in zip(names, ages):
+...     print(name, 'is', age, 'years old')
+Jack is 20 years old
+Beth is 19 years old
+Mike is 24 years old
+```
+
+>对于长度不同的两个序列，`zip`将在较短序列完成后停止"缝合"
+
+##### 3.3.2 迭代时索引
+
+可利用内置函数 `enumerate`在迭代时获取对象索引，如：
+
+```python
+>>> strings = ['xxx', 'fswfwfxxx', 'wrwx']
+>>> for index, string in enumerate(strings):
+...     if 'xxx' in string:
+...             strings[index] = '[censored]'
+...
+>>> strings
+['[censored]', '[censored]', 'wrwx']
+```
+
+##### 3.3.3 反向迭代和排序后迭代
+
+可利用`reversed`和`sorted`两个函数直接返回修改排序后的版本，而不对对象本身进行更改
+
+#### 3.4 跳出循环
+
+> break: 直接跳出循环
+> continue: 结束当前迭代，跳到下一次迭代开始
+> while 和 break
+
+#### 3.5 循环与else
+
+如果循环中未执行break，则可以在其后加上一个else让程序执行else中的内容，如：
+
+```python
+>>> from math import sqrt
+>>> for n in range(99, 81, -1):
+...     root = sqrt(n)
+...     if root == int(root):
+...             print(n)
+...             break
+... else:
+...     print("No")
+...
+No
+```
+
+### 4. 其他语句
+
+>del: 删除对象，但只删除名称，例如`x=y=1`,`del x`后y仍然存在
+>exec：将字符作为代码执行，如： `exec("print('Hello,world')")`，但需要传递命名空间
+>eval: 类似exec并返回结果
+
+## 五、抽象和类
+
+### 1. 定义函数
+
+**def**为函数定义关键字，如:
+
+```python
+def test():
+    return 5
+test()
+
+def init(data):
+    data['first'] = {}
+    data['middle'] = {}
+    data['last'] = {}
+```
+
+默认参数为位置参数，也可以直接指定参数名称，这样的参数称为关键字参数
+
+```py
+hello(greeting = 'Hello', name = 'world')
+```
+
+同样也可以用*来收集参数
+
+```py
+>>> def prints(title, *params):
+...     print(title)
+...     print(params)
+>>> prints('Params:', 1,2,3)
+Params:
+(1, 2, 3)
+#*吸收剩余的值，返回一个元组
+
+>>> def Prints(**p):
+...     print(p)
+>>> Prints(x=1, y=2, z=3)
+{'x': 1, 'y': 2, 'z': 3}
+#多参数用**，返回一个字典
+```
+
