@@ -487,7 +487,7 @@ No
 
 ## 五、抽象和类
 
-### 1. 定义函数
+### 1. 函数
 
 **def**为函数定义关键字，如:
 
@@ -526,3 +526,96 @@ Params:
 #多参数用**，返回一个字典
 ```
 
+函数中定义的只是局部变量，是在**命名空间**或**作用域**中定义的。除全局作用域外，每个函数都将创建一个。
+
+### 2. 对象
+
+指一些列数据及访问操作它们的方法。其优点包括：
+
+>多态：可对不同类型数据执行相同操作
+>封装：对外隐藏工作原理细节
+>继承：基于通用类创建专用类
+
+### 3. 类
+
+#### 3.1 定义类
+
+关键字：class，self
+
+```py
+class person:
+
+    name = None
+
+    def set_name(self, name):
+        self.name = name;
+
+    def get_name(self):
+        return self.name;
+
+    def greet(self):
+        print("Hello, world! I'm {}.".format(self.name))
+#需要注意类中所有函数都需要含self参数，但使用时不需要写出，如下：
+
+foo = person()
+#定义对象的方法
+foo.set_name('Jack')
+foo.greet()
+```
+
+另外可以将类内函数关联到一个普通函数中。
+
+```py
+def Greet():
+    print('Hello!)
+
+foo.greet = Greet
+```
+
+同理，类外函数也可关联到类内
+
+私有：只需要在名称加上__即可，如`def __a(self)`
+
+#### 3.2 继承
+
+可以通过`class b(a):`定义a的子类b，a即为b的超类
+
+子类也可以重新定义重写超类方法
+
+```py
+class Filter:
+    def init(self):
+        self.blocked = []
+    def fileter(self, sequence):
+        return [x for x in sequence if x not in self.blocked]
+
+class SPAMFilter(Filter):
+    def init(self):     #重写方法
+        self.blocked = ['SPAM']
+
+```
+
+>判断是否为子类的方法：`issubclass(a,b)`，若a为b子类返回`True`  
+>确定类的基类： `a.__bases__`
+>判断对象是否为类的实例: `isinstance(a,b)`，a为实例返回`True`
+
+多继承：`class A(B, C)`如果BC含相同方法，则C中的会覆盖掉B中的
+
+抽象基类：定义子类需要实例化的方法，具体实现如下：
+
+```py
+from abc import ABC, abstractmethod
+
+class Talker(ABC):
+    @abstractmethod     #装饰器，用于标记抽象的方法
+    def talk(self):
+        pass
+```
+
+## 六、异常
+
+出现异常时，python会返回错误消息并终止程序
+
+>raise: 可将类或实例作为参数，用于引发异常的语句 `raise Exceprion`  
+>Exception: 内置异常类，所有异常类都由其派生
+>try/except： 用于捕获异常的语句
