@@ -73,23 +73,68 @@
 ## DNA Replication, Repair and Recombination
 
 * Term:
-        1. Germ-line
-        2. Somatic
-        3. Gamete
-        4. Zygote
-        5. Meiosis：N -> 4N
-        6. Mitosis: N -> 2N
-        7. Haploid
-        8. Diploid
+  1. Germ-line
+  2. Somatic
+  3. Gamete
+  4. Zygote
+  5. Meiosis：N -> 4N
+  6. Mitosis: N -> 2N
+  7. Haploid
+  8. Diploid
 
 * Enzymes and proteins:
-        1. DNA primerase
-        2. DNA ligase
-        3. DNA helicase
-        4. Single-strand DNA-binding (SSB) protein
-        5. DNA topoisomerases: prevent tangling
-        6. DNA polymerase
-        7. Telomerase
+        1. **DNA primerase**：Provides a starting point of RNA (or DNA) for DNA polymerase to begin synthesis of the new DNA strand. 
+        2. **DNA ligase**: Re-anneals the semi-conservative strands and joins Okazaki Fragments of the lagging strand.
+        3. **DNA helicase**：separates the two strands of DNA at the Replication Fork behind the topoisomerase.
+        4. **Single-strand DNA-binding (SSB) protein**
+        5. **DNA topoisomerases**: Relaxes the DNA from its super-coiled nature.
+        6. **DNA polymerase**：catalyzing the addition of nucleotide substrates to DNA in the 5′ to 3′ direction during DNA replication
+        7. **Telomerase**： Lengthens telomeric DNA by adding repetitive nucleotide sequences to the ends of eukaryotic chromosomes 
 
 * DNA repair
         1 million/day
+
+## DNA to RNA
+
+* Transcription start sites (TSS):core promoter region, -35——-10 
+
+* various types of RNA:
+        mRNA
+        rRNA
+        tRNA
+        snRNA:small nuclear RNA
+        snoRNA
+        miRNA
+        siRNA
+
+* Enzymes
+
+  1. **RNA polymerase**：
+**RNA polymerase II holoenzyme**: catalyzes precursors of mRNA, and most snRNA and microRNA
+        General transcription factors(GTFs)
+
+* PIC:
+
+* C-terminal dormain(CTD)
+
+* 5'-capping of mRNA
+
+        consist of guanine nucleotide(methylated):m7G
+
+* Editing Splicesome: snRNA(U1,U2,U4,U5,U6) remove introns from pre-mRNA
+
+* Mediator : coactivator in all eukaryotes
+
+* Poly A: 3' end, protect from degradation by exonucleases
+
+* RNA polymerase in Rucaryotic cells:
+  1. 5.8, 18, 28S rRNA
+  2. mRNA, snoRNA, miRNA, siRNA, most snRNA
+  3. tRNA, 5SrRNA, some snRNA, small RNA
+
+* 1 Procaryotic mRNA can code various proteins while eucaryotic one only codes one
+
+* Reading frame:open reading frame(ORF)
+        
+        Start:AUG for Met
+        Stop condons: UAA；UAG；UGA

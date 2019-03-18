@@ -1,4 +1,4 @@
-# Deep Learning
+# Machine Learning
 
 ## Andrew Ng's lecture
 
