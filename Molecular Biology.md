@@ -54,7 +54,7 @@
 3. The interrupted gene
     * exon; intron(易突变);
 
-4. Genome and genome evolution
+4. Genome
     * C值: 生物体单倍体基因组DNA总量。
         C值悖论（C value paradox)：C值和生物结构或复杂性不一致的现象。
 
@@ -68,3 +68,35 @@
         6. 转录单元是多顺反子
     2. 原核生物基因组
         * 特征： 基因密度高，重复序列少
+        * 质粒可自主复制，携带遗传信息
+
+    3. 真核生物基因组：
+        * 细胞核基因组和细胞质基因组
+        * 特征：
+            1. 大量重复序列
+                * 单拷贝序列（低重复序列）40%-80%，大部分结构基因
+                * 中度重复序列：重复此时10-105，10%-40%，rRNA，tRNA，组蛋白。与基因调控有关
+                    > Alu家族，中度重复序列中散在重复序列，研究较多。每个成员300bp，Alu序列重复30-50万次
+                * 高度重复序列：可重复百万次，10-60%,如反向重复序列，卫星DNA。
+                * 重复序列多态性：
+                    * 单核苷酸多态性（SNP），最常见
+                    * 串联重复序列多态性
+            2. 多基因家族与假基因
+                * 多基因家族：某一祖先基因经重复和变异产生的一组基因
+                    > 珠蛋白及原因家族，组蛋白基因家族
+                * 假基因：与有功能基因结构相似，但不能表达有功能的基因产物的基因。
+            3. 细胞器基因组（线粒体叶绿体）：主要编码呼吸链酶，rRNA和tRNA； 母系遗传，突变率高，与通用遗传密码存在差别
+
+    4. Genome evolution
+
+## 4. DNA Biosynthesis
+
+    半不连续复制
+
+    1. DNA pol I
+        1. larger cleavage product: polymerase 3‘-5’ exonucleolytic activity
+        2. small fragment: 5‘-3’ exonucleolytic activity
+        not the major replicase
+    2. DNA ppol III:main replicase
+        * dimeric structure:A catalytic core (催化核心) ;A dimerization subunit (二聚化亚基);A processivity component/clamp and clamp-loading complex (进行性组分或滑动钳和钳载复合物)
+        * caralytic core:

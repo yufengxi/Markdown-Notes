@@ -70,7 +70,7 @@
 
         region joins two sister chromatids or half of chromosome
 
-## DNA Replication, Repair and Recombination
+## 3. DNA Replication, Repair and Recombination
 
 * Term:
   1. Germ-line
@@ -94,7 +94,7 @@
 * DNA repair
         1 million/day
 
-## DNA to RNA
+## 4. DNA to RNA
 
 * Transcription start sites (TSS):core promoter region, -35——-10 
 
@@ -135,6 +135,54 @@
 * 1 Procaryotic mRNA can code various proteins while eucaryotic one only codes one
 
 * Reading frame:open reading frame(ORF)
-        
+
         Start:AUG for Met
         Stop condons: UAA；UAG；UGA
+
+## 5. Control of Gene Expression
+
+Basis of *genotype* -> *phenotype*
+
+Steps of gene expression:
+
+1. Transcription:
+   * RNA polymerase(1,2,3)
+   * Poly II C-terminal domain
+   * TF-II
+   * TBP
+   * TST(Transcription start sites)
+   * Promoter
+   * Stop signaling
+2. RNA processing
+   * hnRNA(preRNA)
+   * 5'-mG cap
+   * 3' Poly A tail
+   * Splicemome
+   * Intron, Exon
+3. RNA export
+      
+4. translation
+   * 5'-UTR,(un-translational region);3'-UTR
+   * ORF
+   * Met and Kozak consensus
+   * Ribosome, AA-tRNA
+   * Signal petide
+
+* Gene types in expression:
+   1. Constitutive Gene: transcribe continually
+   2. Housekeeping Gene: expresses in all cell types(GAPDH, ubiquitin)
+   3. Facultative Gene: transcribe when need
+   4. Inducible Gene
+
+* Transcription Factors(TF):
+
+    * Three Type:
+         1. Helix-turn-helix motif
+         2. Zinc finger motif
+         3. Leucine zipper motif
+    * Two Domains:
+         1. DNA binding domains
+         2. Transactivation domains
+    * Function:
+         1. Constitutively Active
+         2. Conditionaly Active
