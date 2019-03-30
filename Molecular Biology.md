@@ -100,3 +100,50 @@
     2. DNA ppol III:main replicase
         * dimeric structure:A catalytic core (催化核心) ;A dimerization subunit (二聚化亚基);A processivity component/clamp and clamp-loading complex (进行性组分或滑动钳和钳载复合物)
         * caralytic core:
+            $\alpha$ subunit: the DNA polymerase activity
+            $\$
+
+## 5. DNA damage repair and mutation
+
+Damage: abnormal 
+
+### 5.1 Factor of causing DNA damages
+
+* Endogenous: 
+    1. instability of DNA structure
+    2. base mismatch
+    3. attack of reactive oxygen
+
+* Exogenous:
+    1. Physical factors
+
+### 5.2 Mechanisms of DNA repair
+
+1. Direct reversal
+    * 嘧啶二聚体：光复活酶修复
+    * 烷基化：甲基转移酶将碱基上甲基转移
+    * 断裂双联：连接酶修复
+
+2. Excision repair（切除修复）
+    * 碱基切除修复：糖苷酶（glycosylases)
+    * 核苷切除修复：核酸内切酶（endonuclease）切除单链
+
+3. Mismatch repair（错配修复）
+
+4. Double-strand break repair(双联断裂修复)
+    * Homologous recombination
+    * Non-homologous end joining(NHEJ)
+    * Microhomology-mediated end joining(MMEJ)
+
+5. Damage bypass
+
+### 5.3 Mutation Type
+
+1. Small-scale mutations:
+    1. point mutations
+    2. insertions
+    3. deletions
+2. Large-scale mutations:
+    1. Amplifications
+    2. Deletions
+    3. Teanslocations

@@ -131,6 +131,7 @@ $ages
     mysample <- leadership[sample(1:nrow(leadership), 3 ,        replace=FALSE),]
     ```
 
+
 2. 数值处理
 
     * 数学函数：
@@ -148,6 +149,14 @@ $ages
 
     > `mean(x)`算术平均数;`mean(x, trim = 0.05, na.rm =T`)派出最大最小5%数据以及缺失值
     > `median(x)`
+
+3. 分组
+
+    * aggregate()
+
+    ```r
+     aggregate(data, list(), FUN)
+    ```
 
 ## 3. 作图
 
@@ -170,3 +179,7 @@ newGroup = Data %>%
   summarise(Maxrolling = round(max(rolling, na.rm = T), 3))
 detach(Data)
 ```
+
+## Package
+
+zoo
