@@ -147,3 +147,33 @@ Damage: abnormal
     1. Amplifications
     2. Deletions
     3. Teanslocations
+
+## 6. RNA biosysthesis
+
+### 6.1  General feature of transcription
+
+1. Sepecific gene expression unit
+
+    * RNA polumerase (DNA-dependent RNA polymerase)
+    * Promoter(RNA polymerase binding point)
+        > -35 ---- -10，startpoint:+1(no 0)
+    * Startpoint
+    * Terminator
+    * distal（远端）, proximal（近端）
+    * Transcription unit(between sites of initiaion and termination by RNA polymerase)
+2. dNTP, Mg2+
+3. separated Double strands
+    * RNA polymerase can separated before trasncription and 
+    * Transcription start in bubble(12-14bp)
+4. Purine 1st (G)
+
+### 6.2 Enzymology
+
+1. Prokaryotic RNA polymerase
+    * holoenzyme: $\alpha 2 \beta \beta' \omega \sigma$; $\sigma$ is various in different speciese while others are similar
+    * core polymerases : $\alpha 2 \beta \beta' \omega $
+2. Assembly
+    1. $\alpha_2 +\beta$
+    2. $+ \beta' \omega$ (core enzyme, can binds to any DNA)
+    3. $+\sigma$ (binds to promoter)
+3. Types

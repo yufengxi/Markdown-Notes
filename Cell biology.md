@@ -119,7 +119,7 @@
 
 * 5'-capping of mRNA
 
-        consist of guanine nucleotide(methylated):m7G
+    consist of guanine nucleotide(methylated):m7G
 
 * Editing Splicesome: snRNA(U1,U2,U4,U5,U6) remove introns from pre-mRNA
 
@@ -186,3 +186,29 @@ Steps of gene expression:
     * Function:
          1. Constitutively Active
          2. Conditionaly Active
+
+## 6. Analyzing Methods in Cell biology
+
+### 6.1 Isolating cells and growing in culture
+
+1. isolate from culture
+    * Giemsa stained
+    * FACS(Fluorescence-Activated Cell Sorter)
+2. Grown in culture
+    * in vitro(cell)
+    * in vivo(whole organism)
+3. Homogeneous cell
+
+### 6.2 Light microscope
+
+1. light Microscope: resolve 0.2$\mu m$
+    > $$resolution =\frac {0.61 \lambda}{n sin\theta}$$
+2. Fluorescence microscopy
+
+3. Antibodies: secondary antibodies with markers
+
+4. 3-dimensional objects
+
+5. Protein dynamics: Fluorescence resonance energy transfer(FRET)
+
+6. Stimulated emission depletion microscopy(STED)
