@@ -212,3 +212,31 @@ Steps of gene expression:
 5. Protein dynamics: Fluorescence resonance energy transfer(FRET)
 
 6. Stimulated emission depletion microscopy(STED)
+
+## 7. Membrane
+
+### 7.1 Structure and Transport of membrane
+
+1. Lipid Rafts Model
+
+2. Chemical composition:
+    * Lipid:
+        * glycerophosphatide(甘油磷脂)
+        * sphingolipids(鞘脂)
+        * Cholesterol(固醇)
+        * Movement
+            Laterral diffusion(侧向运动)
+        * Rotation(自旋)
+        * Wave(尾部摆动)
+        * Transverse diffusion(翻转)
+
+    * Protein:
+        * Transmembrane protein:Most
+
+    * Carbohydrates:
+
+3. Transport
+
+    1. Diffusion
+    2. fff
+        * Gated ion channels
