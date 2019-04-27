@@ -160,8 +160,6 @@ $ages
 
 ## 3. 作图
 
-
-
 ## 实战
 
 1. [O3]MDA8
@@ -179,6 +177,12 @@ newGroup = Data %>%
   summarise(Maxrolling = round(max(rolling, na.rm = T), 3))
 detach(Data)
 ```
+
+## 机器学习与深度学习
+
+1. 决策树：基于基尼不纯度（一个随机事件变成对立面的概率）
+
+2. 随机森林：集成思想
 
 ## Package
 

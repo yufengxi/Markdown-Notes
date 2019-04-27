@@ -151,6 +151,7 @@ Tensor(x, y)
 
 
 	> 不同层可以用不用的激活函数
+    > CNN :ReLu
 
 ## PyTorch
 
@@ -226,3 +227,4 @@ Tensor(x, y)
 		```
 
 ### 二、神经网络工具箱nn
+

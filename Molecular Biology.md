@@ -177,3 +177,56 @@ Damage: abnormal
     2. $+ \beta' \omega$ (core enzyme, can binds to any DNA)
     3. $+\sigma$ (binds to promoter)
 3. Types
+
+### 6.3 Promoter and enhancer
+
+## 7. RNA processing, Transportation and Degradation
+
+### 7.1 Introduction
+
+* 基因和顺反子：顺反子编码蛋白，基因编码有功能的产物。
+
+* 基因长度由内含子决定。
+
+* Heterogeneous nuclear RNA(hnRNA)核异质RNA
+
+* small RNA(sRNA)
+    > snRNA(small nuclear RNA)
+    > scRNA(small cytoplasmic RNA)
+    > snoRNA(small nucleolar RNA)
+
+### 7.2 mRNA processing in Eukaryotic cells
+
+* 5' cap： m7GpppA/Gp(7-甲基)，帽子后两个核糖2'羟基甲基化
+    > 核内进行
+
+    ![Alt Text](Pictures/Molecular_Biology/cap.png)
+
+* 3' polyadenylation:
+    > RNA聚合酶，不需要模板
+    > 20-200ny
+
+    * signal and factors:
+        * CPSF(AAUAAA)
+        * CstF(GU)
+        * CFI CFII
+        * PAP
+        * PBP
+        * Pol II
+
+        ![Alt Text](Pictures/Molecular_Biology/tail.png)
+
+    * function:
+        1. 诱导出核
+        2. 避免降解
+        3. 利于翻译
+
+### 7.3 Removal of introns
+
+* pre-mRNA: GU-AG，剪切由U1, U2, U4, U5, U6 snRNP协助
+![Alt Text](Pictures/Molecular_Biology/introns.png)
+
+* Type I，II：核酶，自催化剪切。
+    > I利用G（GMP，GDP，GTP）上羟基催化，II原理与GU-AG相同，不需要辅助蛋白。
+
+### 7.4 Introns splicing

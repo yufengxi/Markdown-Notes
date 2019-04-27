@@ -752,3 +752,13 @@ class B(A):
 with open('file.txt') as somefile:
     do_something(somefile)
 ```
+
+## 九、常用包
+
+### 9.1 Numpy
+
+### 9.2 Matplotlib
+
+```
+plt.figure()
+```

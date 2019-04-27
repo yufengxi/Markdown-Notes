@@ -14,27 +14,27 @@
 
 * Differences：
 
-        Eukaryotic DNA: in linear molecules called chromosomes,     separated from cytoplasm(细胞质)
-        Eukaryotes' Mitochondria(线粒体) also contain DNA
+    Eukaryotic DNA: in linear molecules called chromosomes,     separated from cytoplasm(细胞质)
+    Eukaryotes' Mitochondria(线粒体) also contain DNA
 
 * Cytoskeleton: maintain shape of cells
 
-        microfilaments : by actin（肌动蛋白）
-        microtubules : by tubulin（微管蛋白）
-        intermediate filaments：vimentin（波形蛋白）, desmin（肌间线蛋白）, lamin(核纤层蛋白), keratin(角蛋白)
+    microfilaments : by actin（肌动蛋白）
+    microtubules : by tubulin（微管蛋白）
+    intermediate filaments：vimentin（波形蛋白）, desmin（肌间线蛋白）, lamin(核纤层蛋白), keratin(角蛋白)
 * Genetic material:
 
-        deoxyribonucleic acid (DNA) and ribonucleic acid (RNA)
+    deoxyribonucleic acid (DNA) and ribonucleic acid (RNA)
 
 * Eukaryotic organelles:
 
-        Cell nucleus or nuclei
-        Mitochondria, chloroplasts
-        Endoplasmic reticulum
-        Golgi apparatus
-        Lysosome(溶酶体) and peroxisomes（过氧化氢酶体）
-        Centrosome
-        vacuoles(液泡)
+    Cell nucleus or nuclei
+    Mitochondria, chloroplasts
+    Endoplasmic reticulum
+    Golgi apparatus
+    Lysosome(溶酶体) and peroxisomes（过氧化氢酶体）
+    Centrosome
+    vacuoles(液泡)
 
 
 
@@ -42,33 +42,33 @@
 
 * DNA Structure
 
-        Double helix
-        Adenine-Thymine, Cytosine-Guanine
-        phosphodiester bond, hydrogen bond
-        major groove: 22 A; minor groove: 12 A
-        Stabilized by two forces:  hydrogen bond, base-staching among aromatic nucleobases
+    Double helix
+    Adenine-Thymine, Cytosine-Guanine
+    phosphodiester bond, hydrogen bond
+    major groove: 22 A; minor groove: 12 A
+    Stabilized by two forces:  hydrogen bond, base-staching among aromatic nucleobases
 
 * Sense antisense
 
-        sense: same sequence as mRNA
+    sense: same sequence as mRNA
 
 * Supercoil
 
-        relaxed: 10.4 base pairs helix
-        positive supercoil: same direction of helix
-        nature condition: negative supercoil, catalyzed by topoisomerases
+    relaxed: 10.4 base pairs helix
+    positive supercoil: same direction of helix
+    nature condition: negative supercoil, catalyzed by topoisomerases
 
 * Gene
 
-        phenotypes: genotypes + environmental condition
+    phenotypes: genotypes + environmental condition
 
 * nuclearsome
 
-        protein core: 8 histone
-        200 bps, 11nm,
+    protein core: 8 histone
+    200 bps, 11nm,
 * Centromere
 
-        region joins two sister chromatids or half of chromosome
+    region joins two sister chromatids or half of chromosome
 
 ## 3. DNA Replication, Repair and Recombination
 
@@ -83,35 +83,35 @@
   8. Diploid
 
 * Enzymes and proteins:
-        1. **DNA primerase**：Provides a starting point of RNA (or DNA) for DNA polymerase to begin synthesis of the new DNA strand. 
-        2. **DNA ligase**: Re-anneals the semi-conservative strands and joins Okazaki Fragments of the lagging strand.
-        3. **DNA helicase**：separates the two strands of DNA at the Replication Fork behind the topoisomerase.
-        4. **Single-strand DNA-binding (SSB) protein**
-        5. **DNA topoisomerases**: Relaxes the DNA from its super-coiled nature.
-        6. **DNA polymerase**：catalyzing the addition of nucleotide substrates to DNA in the 5′ to 3′ direction during DNA replication
-        7. **Telomerase**： Lengthens telomeric DNA by adding repetitive nucleotide sequences to the ends of eukaryotic chromosomes 
+    1. **DNA primerase**：Provides a starting point of RNA (or DNA) for DNA polymerase to begin synthesis of the new DNA strand. 
+    2. **DNA ligase**: Re-anneals the semi-conservative strands and joins Okazaki Fragments of the lagging strand.
+    3. **DNA helicase**：separates the two strands of DNA at the Replication Fork behind the topoisomerase.
+    4. **Single-strand DNA-binding (SSB) protein**
+    5. **DNA topoisomerases**: Relaxes the DNA from its super-coiled nature.
+    6. **DNA polymerase**：catalyzing the addition of nucleotide substrates to DNA in the 5′ to 3′ direction during DNA replication
+    7. **Telomerase**： Lengthens telomeric DNA by adding repetitive nucleotide sequences to the ends of eukaryotic chromosomes 
 
 * DNA repair
-        1 million/day
+    1 million/day
 
 ## 4. DNA to RNA
 
 * Transcription start sites (TSS):core promoter region, -35——-10 
 
 * various types of RNA:
-        mRNA
-        rRNA
-        tRNA
-        snRNA:small nuclear RNA
-        snoRNA
-        miRNA
-        siRNA
+    mRNA
+    rRNA
+    tRNA
+    snRNA:small nuclear RNA
+    snoRNA
+    miRNA
+    siRNA
 
 * Enzymes
 
   1. **RNA polymerase**：
 **RNA polymerase II holoenzyme**: catalyzes precursors of mRNA, and most snRNA and microRNA
-        General transcription factors(GTFs)
+    General transcription factors(GTFs)
 
 * PIC:
 
@@ -136,8 +136,8 @@
 
 * Reading frame:open reading frame(ORF)
 
-        Start:AUG for Met
-        Stop condons: UAA；UAG；UGA
+    Start:AUG for Met
+    Stop condons: UAA；UAG；UGA
 
 ## 5. Control of Gene Expression
 
@@ -177,15 +177,15 @@ Steps of gene expression:
 * Transcription Factors(TF):
 
     * Three Type:
-         1. Helix-turn-helix motif
-         2. Zinc finger motif
-         3. Leucine zipper motif
+     1. Helix-turn-helix motif
+     2. Zinc finger motif
+     3. Leucine zipper motif
     * Two Domains:
-         1. DNA binding domains
-         2. Transactivation domains
+     1. DNA binding domains
+     2. Transactivation domains
     * Function:
-         1. Constitutively Active
-         2. Conditionaly Active
+     1. Constitutively Active
+     2. Conditionaly Active
 
 ## 6. Analyzing Methods in Cell biology
 
@@ -221,17 +221,17 @@ Steps of gene expression:
 
 2. Chemical composition:
     * Lipid:
-        * glycerophosphatide(甘油磷脂)
-        * sphingolipids(鞘脂)
-        * Cholesterol(固醇)
-        * Movement
-            Laterral diffusion(侧向运动)
-        * Rotation(自旋)
-        * Wave(尾部摆动)
-        * Transverse diffusion(翻转)
+    * glycerophosphatide(甘油磷脂)
+    * sphingolipids(鞘脂)
+    * Cholesterol(固醇)
+    * Movement
+        Laterral diffusion(侧向运动)
+    * Rotation(自旋)
+    * Wave(尾部摆动)
+    * Transverse diffusion(翻转)
 
     * Protein:
-        * Transmembrane protein:Most
+    * Transmembrane protein:Most
 
     * Carbohydrates:
 
@@ -239,4 +239,43 @@ Steps of gene expression:
 
     1. Diffusion
     2. fff
-        * Gated ion channels
+    * Gated ion channels
+
+    3. aquaporin（水通道）
+    4. Active transport
+
+### 8. Intracellular compartment
+
+1. Cytoplasmic Matrix(细胞质基质)：
+
+2. The Endoplasmic reticulum
+
+    1. Protein
+    2. membrane lipid synthesis in sER;
+    3. Protein glycosylation
+    4. Others:
+        release glucose from glucose 6-phosphate
+
+3. Golgi Body( apparatue, complex)
+
+    * Regional Difference of stacks
+    * Functions:
+        1. center for macromolecule transports
+        2. Glycosylation
+            > aid in folding proteins
+            > tags for sorting proteins
+            > signal as respond to stimuli
+
+4. Lysosome
+    * Marker enzyme: acid phosphatase
+    * Membrane:
+        * H+ pumps
+        * transport proteins
+        * highly glycosylated membrane
+    * Function: intracellular disgestion
+        > digestive for nutrition
+        > regulate the secretion
+
+5. Peroxiosome
+
+### 9. Protein sorting
