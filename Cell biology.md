@@ -279,3 +279,25 @@ Steps of gene expression:
 5. Peroxiosome
 
 ### 9. Protein sorting
+
+### 10. Cell Signaling
+
+* Types of Intercellular signaling
+    1. Contact-dependent
+    2. Paracrine
+    3. Synaptic(neurontransmitter)
+    4. Endocrine
+
+* Nuclear Receptors:
+    1. Structure: N-terminal domain(Activation function 1); DBD(DNA binding domain); Hinge regine; LBD(Ligand binding domain, Activation function 2); C-terminal domain
+
+* G-protein
+
+### 11 Cytoskelation
+
+1. Microtubule
+    * Made up of $\alpha, \beta$ tubulin dimers($\alpha$ binds to GTP, $\beta$ GTP; GTP at $\beta$ dimer can be exchanged and hydrolyzed) ; $\gamma tubulins at minus-end called microtubule-organizing centers(MTOCs)
+    * Growing by adding GTP cap($\beta$ at the top)
+    * Growing and shrinking at the same end
+
+2. Intermediate filaments(IFs)

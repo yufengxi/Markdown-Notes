@@ -230,3 +230,69 @@ Damage: abnormal
     > I利用G（GMP，GDP，GTP）上羟基催化，II原理与GU-AG相同，不需要辅助蛋白。
 
 ### 7.4 Introns splicing
+
+### 7.5 tRNA and rRNA processing
+
+1. Evidence of processing
+
+    1. 5'单磷酸（刚转录3磷酸）
+    2. mature rRNA and tRNA are smaller
+    3. all tRNA has rare bases
+
+2. Intron of tRNA in yeast
+    * 59 of 272 tRNA has singal introns
+    * 无共有序列
+    * 位于3’端反密码子环隔1个核苷酸
+    * 剪切：四聚体（Sen34切3'， Sen2切5'，Sen54 as ruler, Sen15功能不明）
+    * 加工后真核3'端加CCA
+    * 碱基加工（tRNA中修饰加工类型最多）
+
+3. rRNA Processing
+    * 真核：28S, 18S, 5.8S, 5S
+    * 原核：23S, 16S, 5S
+    * 加工：snoRNA
+        > 核糖甲基化，将尿嘧啶替换为假尿嘧啶
+
+4. RNA editing and chemical modification
+    * Editing: 碱基替换/缺失或插入
+        > gRNA互补
+    * Modification: 化学修饰
+
+5. mRNA Degradation
+    1. Prokaryotic: 脱焦磷酸，内切酶，外切酶（5-3的趋势，3'-5'的方向）
+    2. Eukaryotic: 脱尾（降解信号）- 3-5外切酶可降解 - 内切酶脱帽 - 5-3降解
+
+## 8. Protein translation
+
+1. Genetic code:DNA, mRNA到蛋白的对应
+    * Degenracy：简并性
+    * Many-sided codons: 兼职性
+    * Universality：普遍性
+    * Particularity：特殊性
+    * Wobble Base(密码子第三位存在摇摆性)
+    * Continuity: 连续性
+
+2. RNA's involved in Protein synthesis
+    * tRNA：
+        * 末端核苷酸的核糖上羟基（2',3'均可）能够与氨基酸形成共价键
+        * 二级结构三叶草，三级结构L
+
+3. Ribosomes
+    * mRNA binding site
+    * AA-tRNA binding site(A site)
+    * Peptidyl-tRNA binding site(P site)
+    * Free tRNA exiting site(E site)
+    * Peptide Bond-forming site
+
+4. tRNA 装配为AA-tRNA
+    * ATP中AMP结合在氨基酸羟基上
+    * AMP与tRNA置换
+    * 酶tRNA结合位点与L环和额外环相关
+
+5. Ribosome Recycle
+
+6. Initiation in Prokaryotes
+    * IF3:稳定核糖体小亚基，帮助寻找mRNA
+    * IF2:寻找fMet-tRNA
+    * IF1:占据A位点，使得fMet-tRNA只能进入P位点
+

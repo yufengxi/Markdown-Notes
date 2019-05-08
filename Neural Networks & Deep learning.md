@@ -1,6 +1,6 @@
 # Neural Networks & Deep learning
 
-## Course by AndrewNg
+## 基础知识
 
 ### 一、概论
 
@@ -146,12 +146,16 @@ Tensor(x, y)
 3. $ReLu$:$a = max(0,z)$修正线性函数，分类时隐层激活函数，更加广泛
 	<img src = "F:\Mind\Markdown Notes\Pictures\Deep Learning\p5.png">
 
-4. $Leaky ReLu$0点有斜率
+4. $Leaky \ ReLu$ 原点有斜率
 	<img src = "F:\Mind\Markdown Notes\Pictures\Deep Learning\p6.png">
 
 
 	> 不同层可以用不用的激活函数
     > CNN :ReLu
+
+### 卷积神经网络（CNN）
+
+图片输入为三维矩阵（高为RGB）
 
 ## PyTorch
 
@@ -226,5 +230,40 @@ Tensor(x, y)
 		z.backward(retain_graph = True)
 		```
 
-### 二、神经网络工具箱nn
+2. nn工具箱
 
+* `import torch.nn.functional as F`激活函数包，`relu(), sigmoid(x), tanh(x), softplus(x)`
+
+* 建网络流程：
+
+```py
+class Net(torch.nn.Module):
+    def __init__(self, n_feature, n_hidden, n_output):
+        super(Net, self).__init__()
+        self.hidden = torch.nn.Linear(n_feature, n_hidden)   # hidden layer
+        self.predict = torch.nn.Linear(n_hidden, n_output)   # output layer
+
+    def forward(self, x):
+        x = F.relu(self.hidden(x))      # activation function for hidden layer
+        x = self.predict(x)             # linear output
+        return x
+
+net = Net(n_feature=1, n_hidden=10, n_output=1)     # define the network
+print(net)  # net architecture
+
+optimizer = torch.optim.SGD(net.parameters(), lr=0.5)
+loss_func = torch.nn.MSELoss()  # this is for regression mean squared loss
+
+for t in range(200):
+    prediction = net(x)     # input x and predict based on x
+
+    loss = loss_func(prediction, y)     # must be (1. nn output, 2. target)
+
+    optimizer.zero_grad()   # clear gradients for next train
+    loss.backward()         # backpropagation, compute gradients
+    optimizer.step() 
+```
+
+### Code
+
+1. 回归
