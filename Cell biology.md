@@ -301,3 +301,8 @@ Steps of gene expression:
     * Growing and shrinking at the same end
 
 2. Intermediate filaments(IFs)
+
+### 12. Cell Cycle
+
+controlled by CDK(cyclin-dependent kinase)
+

@@ -296,3 +296,14 @@ Damage: abnormal
     * IF2:寻找fMet-tRNA
     * IF1:占据A位点，使得fMet-tRNA只能进入P位点
 
+    * SD序列：起始密码子（AUG）上游的一部分序列，帮助核糖体结合起始
+
+7. Initiation in Eukaryotes
+
+    * 5' NNNPuNNAUGG 3'
+    * eIF3首先与小亚基结合, GTP+Met-tRNA+eIF2
+    * eIF4F(eIF4A(解旋酶), 4E（结合帽）, 4G（骨架蛋白）)与帽子相连，4G与结合尾的PABP相连
+    * eIF5帮助其他因子离开，帮助大亚基进入
+
+8. Elongation
+    1. Tu-GTP帮助aatRNA进入A位

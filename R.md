@@ -131,7 +131,6 @@ $ages
     mysample <- leadership[sample(1:nrow(leadership), 3 ,        replace=FALSE),]
     ```
 
-
 2. 数值处理
 
     * 数学函数：
