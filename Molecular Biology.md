@@ -198,6 +198,7 @@ Damage: abnormal
 ### 7.2 mRNA processing in Eukaryotic cells
 
 * 5' cap： m7GpppA/Gp(7-甲基)，帽子后两个核糖2'羟基甲基化
+    > 首先前体mRNA 5'端去除一个磷酸，之后鸟苷酸转移酶加上鸟嘌呤核苷酸形成5'-5'键，最终甲基转移酶在鸟嘌呤核苷酸加上甲基
     > 核内进行
 
     ![Alt Text](Pictures/Molecular_Biology/cap.png)
